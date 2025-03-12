@@ -92,7 +92,7 @@
       ],
       "rule": {
         "ignore_case": true,
-        "regex": "Minecraft|RimWorld|Steam|Epic|Elden Ring|Dota2|Dota 2|Warcraft 3",
+        "regex": "Steam|Epic|Elden Ring|Dota2|Dota 2|war3|Warcraft III|Cuphead",
         "type": "regex"
       },
       "name_pretty": "Media>Games",
@@ -245,6 +245,7 @@
         "Productivity",
         "Work",
         "Programming",
+        "PyCharm",
         "Interview"
       ],
       "rule": {
@@ -252,14 +253,15 @@
         "regex": "interview-prep",
         "type": "regex"
       },
-      "name_pretty": "Productivity>Work>Programming>Interview",
+      "name_pretty": "Productivity>Work>Programming>PyCharm>Interview",
       "subname": "Interview",
       "parent": [
         "Productivity",
         "Work",
-        "Programming"
+        "Programming",
+        "PyCharm"
       ],
-      "depth": 3
+      "depth": 4
     },
     {
       "data": {
@@ -404,6 +406,31 @@
       },
       "name_pretty": "Productivity>Work>Programming>PyCharm",
       "subname": "PyCharm",
+      "parent": [
+        "Productivity",
+        "Work",
+        "Programming"
+      ],
+      "depth": 3
+    },
+    {
+      "data": {
+        "score": "5"
+      },
+      "id": 20,
+      "name": [
+        "Productivity",
+        "Work",
+        "Programming",
+        "Cursor"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "Cursor",
+        "type": "regex"
+      },
+      "name_pretty": "Productivity>Work>Programming>Cursor",
+      "subname": "Cursor",
       "parent": [
         "Productivity",
         "Work",
