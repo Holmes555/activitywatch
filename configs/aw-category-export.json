@@ -87,20 +87,17 @@
       },
       "id": 4,
       "name": [
-        "Media",
         "Games"
       ],
       "rule": {
         "ignore_case": true,
-        "regex": "Steam|Epic|Elden Ring|Dota2|Dota 2|war3|Warcraft III|Cuphead",
+        "regex": "Steam|Epic|Elden Ring|eldenring|Warcraft III|war3|Cuphead",
         "type": "regex"
       },
-      "name_pretty": "Media>Games",
+      "name_pretty": "Games",
       "subname": "Games",
-      "parent": [
-        "Media"
-      ],
-      "depth": 1
+      "parent": null,
+      "depth": 0
     },
     {
       "data": {
@@ -437,6 +434,46 @@
         "Programming"
       ],
       "depth": 3
+    },
+    {
+      "data": {
+        "color": "#333333"
+      },
+      "id": 21,
+      "name": [
+        "AFK"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "LockApp|Экран блокировки Windows по умолчанию",
+        "type": "regex"
+      },
+      "name_pretty": "AFK",
+      "subname": "AFK",
+      "parent": null,
+      "depth": 0
+    },
+    {
+      "data": {
+        "color": "#9F0500",
+        "score": "-4"
+      },
+      "id": 22,
+      "name": [
+        "Games",
+        "Dota 2"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "Dota 2|dota2",
+        "type": "regex"
+      },
+      "name_pretty": "Games>Dota 2",
+      "subname": "Dota 2",
+      "parent": [
+        "Games"
+      ],
+      "depth": 1
     }
   ]
 }
