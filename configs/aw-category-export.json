@@ -1,0 +1,415 @@
+{
+  "categories": [
+    {
+      "data": {
+        "color": "#0F0"
+      },
+      "id": 0,
+      "name": [
+        "Productivity",
+        "Work"
+      ],
+      "rule": {
+        "regex": "Google Docs|libreoffice|ReText",
+        "type": "regex"
+      },
+      "name_pretty": "Productivity>Work",
+      "subname": "Work",
+      "parent": [
+        "Productivity"
+      ],
+      "depth": 1
+    },
+    {
+      "data": {
+        "color": "#68BC00",
+        "score": "5"
+      },
+      "id": 1,
+      "name": [
+        "Productivity",
+        "Work",
+        "Programming"
+      ],
+      "rule": {
+        "regex": "GitHub|Stack Overflow|BitBucket|Gitlab|vim|Spyder|kate|Ghidra|Scite",
+        "type": "regex"
+      },
+      "name_pretty": "Productivity>Work>Programming",
+      "subname": "Programming",
+      "parent": [
+        "Productivity",
+        "Work"
+      ],
+      "depth": 2
+    },
+    {
+      "data": {
+        "score": "2"
+      },
+      "id": 2,
+      "name": [
+        "Productivity",
+        "ActivityWatch"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "ActivityWatch|aw-",
+        "type": "regex"
+      },
+      "name_pretty": "Productivity>ActivityWatch",
+      "subname": "ActivityWatch",
+      "parent": [
+        "Productivity"
+      ],
+      "depth": 1
+    },
+    {
+      "data": {
+        "color": "#F33"
+      },
+      "id": 3,
+      "name": [
+        "Media"
+      ],
+      "rule": {
+        "type": "none"
+      },
+      "name_pretty": "Media",
+      "subname": "Media",
+      "parent": null,
+      "depth": 0
+    },
+    {
+      "data": {
+        "color": "#C45100",
+        "score": "-2"
+      },
+      "id": 4,
+      "name": [
+        "Media",
+        "Games"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "Minecraft|RimWorld|Steam|Epic|Elden Ring|Dota2|Dota 2|Warcraft 3",
+        "type": "regex"
+      },
+      "name_pretty": "Media>Games",
+      "subname": "Games",
+      "parent": [
+        "Media"
+      ],
+      "depth": 1
+    },
+    {
+      "data": {
+        "color": "#F33",
+        "score": "-5"
+      },
+      "id": 5,
+      "name": [
+        "Media",
+        "Browser",
+        "YouTube"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "YouTube",
+        "type": "regex"
+      },
+      "name_pretty": "Media>Browser>YouTube",
+      "subname": "YouTube",
+      "parent": [
+        "Media",
+        "Browser"
+      ],
+      "depth": 2
+    },
+    {
+      "data": {
+        "color": "#FCC400",
+        "score": "-10"
+      },
+      "id": 6,
+      "name": [
+        "Media",
+        "Social Media"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "reddit|Facebook|Twitter|Instagram|devRant|Telegram",
+        "type": "regex"
+      },
+      "name_pretty": "Media>Social Media",
+      "subname": "Social Media",
+      "parent": [
+        "Media"
+      ],
+      "depth": 1
+    },
+    {
+      "data": {
+        "color": "#FE9200"
+      },
+      "id": 7,
+      "name": [
+        "Media",
+        "Music"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "Spotify|Deezer",
+        "type": "regex"
+      },
+      "name_pretty": "Media>Music",
+      "subname": "Music",
+      "parent": [
+        "Media"
+      ],
+      "depth": 1
+    },
+    {
+      "data": {
+        "color": "#9FF"
+      },
+      "id": 8,
+      "name": [
+        "Comms"
+      ],
+      "rule": {
+        "type": "none"
+      },
+      "name_pretty": "Comms",
+      "subname": "Comms",
+      "parent": null,
+      "depth": 0
+    },
+    {
+      "data": {},
+      "id": 9,
+      "name": [
+        "Comms",
+        "IM"
+      ],
+      "rule": {
+        "regex": "Messenger|Signal|WhatsApp|Rambox|Riot|Element|Discord|Nheko|NeoChat|Mattermost",
+        "type": "regex"
+      },
+      "name_pretty": "Comms>IM",
+      "subname": "IM",
+      "parent": [
+        "Comms"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 10,
+      "name": [
+        "Comms",
+        "Email"
+      ],
+      "rule": {
+        "regex": "Gmail|Thunderbird|mutt|alpine",
+        "type": "regex"
+      },
+      "name_pretty": "Comms>Email",
+      "subname": "Email",
+      "parent": [
+        "Comms"
+      ],
+      "depth": 1
+    },
+    {
+      "data": {
+        "color": "#CCC"
+      },
+      "id": 11,
+      "name": [
+        "Uncategorized"
+      ],
+      "rule": {
+        "type": "none"
+      },
+      "name_pretty": "Uncategorized",
+      "subname": "Uncategorized",
+      "parent": null,
+      "depth": 0
+    },
+    {
+      "data": {
+        "score": "10"
+      },
+      "id": 12,
+      "name": [
+        "Productivity",
+        "Work",
+        "Programming",
+        "Interview"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "interview-prep",
+        "type": "regex"
+      },
+      "name_pretty": "Productivity>Work>Programming>Interview",
+      "subname": "Interview",
+      "parent": [
+        "Productivity",
+        "Work",
+        "Programming"
+      ],
+      "depth": 3
+    },
+    {
+      "data": {
+        "color": "#A4DD00",
+        "score": "10"
+      },
+      "id": 13,
+      "name": [
+        "Productivity"
+      ],
+      "rule": {
+        "type": "none"
+      },
+      "name_pretty": "Productivity",
+      "subname": "Productivity",
+      "parent": null,
+      "depth": 0
+    },
+    {
+      "data": {
+        "color": "#0062B1"
+      },
+      "id": 14,
+      "name": [
+        "Productivity",
+        "Work",
+        "Communications"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "Slack|Teams|Microsoft|Google Meet",
+        "type": "regex"
+      },
+      "name_pretty": "Productivity>Work>Communications",
+      "subname": "Communications",
+      "parent": [
+        "Productivity",
+        "Work"
+      ],
+      "depth": 2
+    },
+    {
+      "data": {
+        "color": "#16A5A5",
+        "score": "10"
+      },
+      "id": 15,
+      "name": [
+        "Productivity",
+        "Obsidian"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "Obsidian",
+        "type": "regex"
+      },
+      "name_pretty": "Productivity>Obsidian",
+      "subname": "Obsidian",
+      "parent": [
+        "Productivity"
+      ],
+      "depth": 1
+    },
+    {
+      "data": {
+        "color": "#FCDC00"
+      },
+      "id": 16,
+      "name": [
+        "Media",
+        "Browser"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "Firefox|Chrome",
+        "type": "regex"
+      },
+      "name_pretty": "Media>Browser",
+      "subname": "Browser",
+      "parent": [
+        "Media"
+      ],
+      "depth": 1
+    },
+    {
+      "data": {
+        "color": "#0062B1"
+      },
+      "id": 17,
+      "name": [
+        "Productivity",
+        "Settings"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "Параметры|Auto Dark Mode|AutoDarkMode",
+        "type": "regex"
+      },
+      "name_pretty": "Productivity>Settings",
+      "subname": "Settings",
+      "parent": [
+        "Productivity"
+      ],
+      "depth": 1
+    },
+    {
+      "data": {
+        "color": "#653294"
+      },
+      "id": 18,
+      "name": [
+        "Productivity",
+        "Files"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "Explorer|TotalCmd|Total Commander",
+        "type": "regex"
+      },
+      "name_pretty": "Productivity>Files",
+      "subname": "Files",
+      "parent": [
+        "Productivity"
+      ],
+      "depth": 1
+    },
+    {
+      "data": {
+        "score": "5"
+      },
+      "id": 19,
+      "name": [
+        "Productivity",
+        "Work",
+        "Programming",
+        "PyCharm"
+      ],
+      "rule": {
+        "ignore_case": true,
+        "regex": "PyCharm",
+        "type": "regex"
+      },
+      "name_pretty": "Productivity>Work>Programming>PyCharm",
+      "subname": "PyCharm",
+      "parent": [
+        "Productivity",
+        "Work",
+        "Programming"
+      ],
+      "depth": 3
+    }
+  ]
+}
