@@ -9,7 +9,7 @@
 # Instructions on how to do this can be found in the guide linked above.
 .PHONY: build install test clean clean_all
 
-SHELL := /usr/bin/env bash
+SHELL := "C:/Program Files/Git/bin/bash.exe"
 
 SUBMODULES := aw-core aw-client aw-qt aw-server aw-server-rust aw-watcher-afk aw-watcher-window
 
