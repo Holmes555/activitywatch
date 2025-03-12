@@ -22,6 +22,7 @@
 [submodule "aw-notify"]
 	path = aw-notify
 	url = https://github.com/Holmes555/aw-notify.git
+	branch = fork/main
 [submodule "aw-watcher-input"]
 	path = aw-watcher-input
 	url = https://github.com/ActivityWatch/aw-watcher-input.git
