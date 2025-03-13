@@ -75,7 +75,7 @@ function build_setup() {
     echo "Setup built!"
 }
 
-build_zip
+#build_zip
 if [[ $platform == "windows"* ]]; then
     build_setup
 fi
