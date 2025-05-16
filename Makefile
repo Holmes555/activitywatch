@@ -10,6 +10,10 @@
 .PHONY: build install test clean clean_all
 
 SHELL := "C:/Program Files/Git/bin/bash.exe"
+# For local build use: 
+# . venv/Scripts/activate
+# make build SKIP_SERVER_RUST=true AW_EXTRAS=true
+# make package SKIP_SERVER_RUST=true AW_EXTRAS=true
 
 SUBMODULES := aw-core aw-client aw-qt aw-server aw-server-rust aw-watcher-afk aw-watcher-window
 
